@@ -1,6 +1,7 @@
 # Stock Quote Tracker Backend
 
-This project is backend part of the Stock Quote Tracker. You also need the [frontend part of the Stock Quote Tracker](https://github.com/leejooho77/online_stock_quote_frontend).
+This project is backend part of the Stock Quote Tracker. You also need the [frontend part of the Stock Quote Tracker](https://github.com/leejooho77/online_stock_quote_frontend). This application used the [Yahoo Finance API](http://financequotes-api.com) to fetch data for stock quotes and it will poll new data every second.
+
 
 ## Quick Start
 
