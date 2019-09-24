@@ -2,7 +2,9 @@ name := "play-scala-websocket-example"
 
 version := "1.0-SNAPSHOT"
 
-lazy val root = (project in file(".")).enablePlugins(play.sbt.PlayScala)
+import play.sbt.PlayScala
+
+lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
 val akkaVersion = "2.5.23"
 
