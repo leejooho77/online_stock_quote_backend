@@ -52,7 +52,7 @@ class FetchStockQuote(symbol: String) extends StockQuoteGenerator {
 
   def newQuote(symbol: String): StockQuote = {
     var newFetch = YahooFinance.get(symbol)
-    StockQuote(symbol, newFetch.getQuote().getPrice())
+    StockQuote(symbol, newFetch.getQuote(true).getPrice())
   }
 }
 
