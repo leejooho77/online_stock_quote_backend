@@ -23,7 +23,7 @@ This project is backend part of the Stock Quote Tracker. You also need the [fron
     
 1. **Make sure you have frontend**
 
-    Navigate to [frontend repository](https://github.com/leejooho77/online_stock_quote_frontend), and follow the direction.
+    Navigate to the [frontend repository](https://github.com/leejooho77/online_stock_quote_frontend), and follow the direction.
 
 1. **Now you are good to go.**
     
